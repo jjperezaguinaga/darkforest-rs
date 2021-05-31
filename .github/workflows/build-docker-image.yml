@@ -27,7 +27,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: alextes/mimc-fast:latest
+          tags: jjperezaguinaga/mimc-fast:latest
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
